@@ -37,7 +37,7 @@ jobs:
         run: npm run test -- --watch=false --browsers=ChromeHeadless --code-coverage
 
       - name: Build
-        run: npm run build --base-href="/Example-CICD-Angular/"
+        run: npm run build
 
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3
