@@ -13,7 +13,7 @@ jobs:
       - name: Set up node.js
         uses: actions/setup-node@v3.3.0
         with:
-          node-version: '16'
+          node-version: '20'
           cache: 'npm'
 
       - name: Install dependencies
@@ -32,7 +32,7 @@ jobs:
 #          SECRET_API_KEY: ${{ secrets.API_KEY}}
 #
       - name: Build
-        run: npm run build:prod
+        run: npm run build
 #
 #      - name: Deploy to GitHub Pages
 #        uses: crazy-max/ghaction-github-pages@v3
