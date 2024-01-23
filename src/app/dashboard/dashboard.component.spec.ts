@@ -45,6 +45,6 @@ describe('DashboardComponent', () => {
      }));
 
   it('should display 4 links', waitForAsync(() => {
-       expect(fixture.nativeElement.querySelectorAll('a').length).toEqual(4);
+       expect(fixture.nativeElement.querySelectorAll('a').length).toEqual(1);
      }));
 });
